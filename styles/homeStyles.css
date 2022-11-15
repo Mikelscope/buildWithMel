@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Lexend-Medium';
+    src: url(../fonts/LexendDeca-Medium.ttf);
+}
+*{
+    font-family: Lexend-Medium, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #222222;
+}
+a{
+    cursor: pointer;
+}
+#nav-bar{
+    display: grid;
+    grid-template-columns: 10% 30% 40%;
+    padding: 1.5em;
+    justify-content: space-around;
+    overflow: hidden;
+    font-size: 1.2vw;
+    
+}
+#sign-up{
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: #83bd1a;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+#freshy{
+    color: #83bd1a;
+    font-weight: bold;
+}
+#search-bar{
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    background-color: #83bd1a36;
+    /* font-size: 0.8em; */
+    padding: 10px 20px;
+}
+#right-nav{
+    list-style: none;
+    display: inline-flex;
+    
+}
+#right-nav li{
+    padding-right: 20px;
+    text-align: right;
+}
+#main-section{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    justify-content: space-around;
+    /* height: 100vh; */
+    align-items: center;
+    font-size: 100%;
+    width: 100vw;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+#background-circle-left{
+    width:19em;
+    height: 10em;
+    background-color: #ecd500;
+    border-radius: 60%;
+    position: absolute;
+    left: -17em;
+    top: 3em;
+    z-index: -2;
+    overflow: hidden;
+}
+#background-circle-right{
+    width:19em;
+    height: 10em;
+    background-color: #83bd1a;
+    border-radius: 60%;
+    position: absolute;
+    right: -17em;
+    /* bottom: 3em; */
+    z-index: -2;
+    overflow: hidden;
+}
+
+#left-main{
+    padding-left: 2em;
+    font-size: 2vw;
+    overflow: hidden;
+}
+.green-main{
+    color: #83bd1a;
+}
+.yellow-main{
+    color: #ecd500;
+}
+.main-note{
+    font-size: 0.7em;
+}
+#main-note-group{
+    margin: 20px 0;
+}
+#get-started{
+    padding: 10px 50px;
+    background-color: #83bd1a;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 50%;
+    font-size: 1vw;
+    margin-left: 50px;
+}
+#wobble1{
+    /* aspect-ratio: 1/1; */
+    width: 100%;
+    transform: scale(0.8);
+}
+#popular-products{
+    background-color: #84bd1a34;
+}
+#popular-products h2{
+    padding:  1.5em;
+}
+#fruits-grid{
+    display: grid;
+    padding: 0 2em;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.grocery-img{
+    width: 80%;
+    max-height: 80%;
+    /* min-height: 80%; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    margin: auto;
+    aspect-ratio: 1/1;
+}
+.fruit-container{
+    background-color: white;
+    border-radius: 20px;
+}
+.fruits-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 30px 30px 30px;
+}
+.fa-solid {
+    /* color: red; */
+    transform: scale(1.5);
+}
+#categories{
+    background-color: white;
+    margin-top: 3em;
+}
+.categories-grid{
+    padding: 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+.categories-container{
+    width: 100%;
+}
+.categories-img{
+    width: 100%;
+}
+.categories-note{
+    padding: 20px;
+}
+#advert-img{
+    width: 100vw;
+    padding: 50px;
+    background-color: white;
+}
+#advert-section{
+    background-color: white;
+}
+footer{
+    background-color: white;
+}
+#mailing-list{
+    text-align: center;
+    background-color: green;
+    width: 80vw;
+    border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+    padding: 30px;
+}
+#mailing-list h2{
+    color: white;
+    font-weight: 100;
+    font-size: 3.5vw;
+}
+#enter-mail{
+    width: 60%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #e0e0e062;
+}
+#subscribe-btn{
+    color: white;
+    padding: 15px;
+    background-color: green;
+    margin-bottom: 30px;
+}
+#bottom-section{
+    font-size: 0.7em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+#bottom-section ul{
+    list-style: none;
+    
+}
+.footer-list{
+    padding-top: 20px;
+}
+.footer-list li a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1px 0;
+}
+.footer-list li{
+    padding: 5px 0;
+}
+
+
